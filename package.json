@@ -1,0 +1,23 @@
+{
+  "name": "airport-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "airport.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtc27/Airport-Javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtc27/Airport-Javascript/issues"
+  },
+  "homepage": "https://github.com/jtc27/Airport-Javascript#readme",
+  "dependencies": {
+    "jest": "^27.4.7"
+  }
+}
