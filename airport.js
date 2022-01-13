@@ -28,4 +28,9 @@ heathrow.addPlane('Airbus 920')
 console.log(heathrow.hangar)
 console.log(heathrow.hangar.length)
 
+heathrow.addPlane('Airbus 922')
+
+console.log(heathrow.hangar)
+console.log(heathrow.hangar.length)
+
 module.exports = Airport

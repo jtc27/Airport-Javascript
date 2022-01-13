@@ -1,9 +1,16 @@
 const Airport = require('./airport')
 
-test('new airport is called Heathrow', () => {
-  let heathrow = new Airport('Heathrow');
+const heathrow = new Airport('Heathrow');
 
+test('new airport is called Heathrow', () => {
   expect(heathrow.name).toEqual('Heathrow')  
   expect(heathrow.name).not.toBe('JFK')  
-})
+});
+
+test('add plane', () => {
+  heathrow.addPlane('Airbus 920')
+
+  expect(heathrow.hangar).toEqual(['Airbus 920'])  
+});
+
 
